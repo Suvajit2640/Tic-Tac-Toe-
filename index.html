@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tic-Tac-Toe</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="hidden showwinner">
-        <p id="msg"></p>
-   <button class="newgame">New game</button>
-   <button class="back">Back</button>
+      <p id="msg"></p>
+      <button class="newgame">New game</button>
+      <button class="back">Back</button>
     </div>
     <main>
+      <div class="all">
         <h1>Tic-Tac-Toe Game</h1>
         <div class="container">
-            <div class="game">
-                <button class="box " onclick="removeHoverStyle()"></button>
-                <button class="box"></button>
-                <button class="box"></button>
-                <button class="box"></button>
-                <button class="box"></button>
-                <button class="box"></button>
-                <button class="box"></button>
-                <button class="box"></button>
-                <button class="box"></button>
-            </div>
-            <div class="playername">Next turn is of Player O</div>
+       
+            <button class="box" ></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            
         </div>
+        <div class="playername">Next turn is of Player O</div>
         <button class="reset">Reset Game</button>
+    </div>
     </main>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
